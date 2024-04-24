@@ -1,0 +1,47 @@
+#viewButtons2{
+    margin-left: -4px;
+    border: 1px solid #078edd;
+    background-color: transparent;
+    border-radius:2px ;
+    width: 120px;
+    position: relative;
+    left: -11%;
+    top: -63%;
+    margin-bottom: 2px;
+}
+#titleHead{
+text-align: center;
+position: relative;
+left: -20%;
+margin-top: 45px;
+}
+.filterico{
+    position: relative;
+    left: -144px;
+    background: #fff;
+    box-shadow: 0px 0px 2px -1px black;
+    cursor: pointer;
+    margin-top: 34px;
+} 
+.filter-section2{
+    border-radius: 6px;
+    background:#ffff;
+ position: relative;
+ left: -26%;
+}
+
+
+@media screen and (min-width: 768px) {
+   
+    .filterico{
+      display: none;
+    } 
+    
+  }
+  
+
+@media screen and (max-width: 768px) {
+   
+  
+  }
+  

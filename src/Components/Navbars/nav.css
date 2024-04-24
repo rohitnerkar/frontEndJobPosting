@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 120px;
+    margin-top: -13px;
+    margin-left: 34px;
+}
+nav{
+    width: 100%;
+    background: #ffff;
+    box-shadow:  0px 0px 5px -2px black;
+    overflow: hidden;
+}
+ul{
+
+    display: flex;
+}
+.elem{
+    display: flex;
+    margin-left: 34px;
+    justify-content: space-between;
+}
+ul a{
+ margin: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.search{
+    position: relative;
+    left: 26%;
+  
+    margin-top: 15px;
+    
+}
+.search i{
+    font-size: 20px;
+font-weight: 200;
+
+}
+.search input
+{
+    
+    margin-left: 10px;
+    font-size: 15px;
+    padding: 12px 2px;
+    width: 100px;
+    color: black;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+}
+.auth{
+    position: relative;
+    left: 26%;
+    margin-top: -6px;
+    display: flex;
+    justify-content: space-around;
+}
+.btn1{
+    color: #078edd;
+    outline: #078edd 2px solid;
+    background-color: transparent;
+border: none;
+width: 60px;
+margin-right: -52px;
+height: 25px;
+font-size: 16px;
+border-radius: 2px;
+}
+.btn2{
+    color: #ffff;
+    outline: #078edd 2px solid;
+    background-color: #078edd;
+border: none;
+width: 70px;
+height: 25px;
+margin-left:23px;
+font-size: 16px;
+border-radius: 2px;
+}
+.hire{
+    position: relative;
+    left: 26%;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 23px;
+    font-weight: 500;
+}
+.hire p{
+    margin-left: 12px;
+}
+
+
+@media screen and (max-width: 768px) {
+   .nav1{
+    display: none;
+   }
+  }
+
+  .location{
+    top: 6rem;
+    left: 14%;
+    position: absolute;
+
+  }
+  .Profile{
+    top: 6rem;
+    left: 14%;
+    position: absolute;
+  }
+  .catogry{
+    top: 6rem;
+    left: 14%;
+    position: absolute;
+    z-index: 1;
+  }
+  .Explore{
+    top: 6rem;
+    left: 14%;
+    position: absolute;
+  }
+  .catogry2{
+    top: 1rem;
+    left: 14%;
+    position: absolute;
+  }
+  .location2{
+    top: -8rem;
+    left: 50%;
+  position: relative;
+
+  }
+ 
+  .jobs{
+    position: relative;
+    top: 0%;
+    left: 24rem;
+  }
+  #more{
+    top: 1rem;
+    left: 14%;
+    position: absolute;
+  }
+
+  /*  For Login */
+#loginClose{
+  left: 92%;
+  top: 0%;
+  position: absolute;
+}
+.login{
+  width: 35%;
+  position: absolute;
+  left: 33%;
+  z-index: 1;
+  background-color: #ffff;
+  top: 20%;
+  box-shadow:  0px 0px 5px -2px #078edd;
+}
+#intershipColo{
+  margin-top: -16px;
+  z-index: 1;
+}
+#jobsDrop{
+left: 22%;
+  z-index: -1;
+}
+.logout{
+  position: relative;
+  width: 100px;
+  left: 438%;
+  top: -8px;
+}
+#picpro{
+ 
+  position: relative;
+  left: 526%;
+  top: 8px;
+}
+.proName{
+  position: relative;
+  font-weight: bold;
+  left: 626%;
+  top: -28px 
+}
+
+.profile-dropdown{
+  position: absolute;
+  top: 8%;
+  left: 65%;
+  background: white;
+  box-shadow:  0px 0px 5px -2px black;
+  height: 250px;
+  z-index: 1;;
+}
+

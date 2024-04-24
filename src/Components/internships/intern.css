@@ -1,0 +1,109 @@
+
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+.internship-filter{
+ background-color: #f8f8f8;;
+}
+.filter-section{
+  width:37%;
+  border-radius: 6px;
+    background:#ffff;
+ position: relative;
+ left: 16%;
+ top: 3rem;
+ 
+    box-shadow:  0px 0px 2px -1px black;
+}
+.search-2{
+  border-radius: 6px;
+  position: relative;
+  left: 16%;
+  box-shadow: 0px 0px 2px -1px black;
+  margin-top: 4rem;
+  margin-bottom: 23px;
+  background: #ffff;
+  height: 90px;
+  width: 37%;
+}
+.first-int{
+  width: 49%;
+  position: sticky;
+}
+
+.search-2 input{
+    margin-left: 3px;
+    margin-top: 34px;
+    
+    width: 80%;
+    background: transparent;
+    border: 1px solid black;
+   
+}
+
+  .search-container {
+    margin-right: 45px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-icon{
+    margin-top: 34px;
+    width: 21px;
+    border-radius: 2px;
+    text-align: center;
+    background: #078edd;
+    height: 27px;
+    color: #ffff;
+  }
+  #display{
+    position: relative;
+    left: -46%;
+    width: 697px;
+    height: 300px;
+  }
+  @media screen and (max-width: 768px) {
+    .first-int{
+      display: none;
+    }
+    #display{
+      position: relative;
+      left: -23%;
+      width: 93%;
+    }
+    .all-internships{
+      position: relative;
+      left: 20%;
+      width: 100%;
+    }
+    #hr{
+      position: relative;
+      top: 1%;
+    }
+    .close{
+      background: #ffff;
+      color: black;
+      font-size: 25px;
+      position: relative;
+      left: 45.4%;
+      width: 40px;
+     }
+    
+  }
+  #viewButtons{
+
+    margin-left: -4px;
+    border: 1px solid #078edd;
+    background-color: transparent;
+    border-radius:2px ;
+    width: 120px;
+    position: relative;
+    left: -11%;
+    top: -203%;
+    margin-bottom: 2px;
+  }
+  #viewButtons:hover{
+    box-shadow: 0px 0px 2px -1px black;
+  }

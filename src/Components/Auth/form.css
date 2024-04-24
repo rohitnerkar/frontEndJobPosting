@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-inline: auto;
+}
+
+.form-auth{
+margin-top: 23px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content:center ;
+}
+.form-auth-2{
+    box-shadow:  0px 0px 10px -2px #078edd;
+    margin-top: 23px;
+    border-radius: 4px;
+   
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content:center ;
+}
+.form-auth input{
+    height:29px ;
+    width: 50%;
+}
+.form{
+    box-shadow: none;
+}
+
+
+button{
+    justify-content: center;
+    width: 50%;
+    height: 29px;text-align: center;
+    background-color: #078edd;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 3px;
+}
+.para{
+    display: flex;
+    justify-content: center;
+    margin-top: 23px;
+}
+.para2{
+    font-size: 13px;
+}
+.but{
+    margin-top: 23px;
+    display: flex;
+justify-content: center;
+}
+h1{
+justify-content: center;
+text-align: center;
+font-size: 45px;
+    display: flex;
+}
+.para3{
+    margin-top: 15px;
+text-align: center;
+}
+.or{
+    display: flex;
+}
+.go{
+    position: relative;
+    top: 5px;
+    width: 30px;
+}
+.bth-go{
+    text-align: center;
+    background: #ffff;
+    width: 300px;
+    height: 40px;
+    color: black;
+    border-radius: 3px;
+   
+
+}
+.box{
+    box-shadow:  0px 0px 10px -2px 
+    #078edd ;
+    border-radius: 7px;
+    width: 70%;
+    justify-content: center;
+    margin-left:7rem;
+}
+.par{
+    width: 200px;
+}
+.all{
+    position: relative;
+    top: -35rem;
+    left: 34rem;
+    box-shadow: -1px 0px 3rem black;
+    width: 35%;
+    background: #fff;
+}
+
+.close{
+    background: #ffff;
+    color: black;
+    font-size: 25px;
+ position: relative;
+ top: 0%;
+ left: 92.4%;
+    width: 40px;
+}
+.auth-tab:active {
+    color: #078edd;
+    text-decoration: underline;
+}
+
+/*  for login */
+.regi{
+    background: url("../../Assets/regbg.png");
+}
+
+/*  for Form Popup */
+@media screen and (max-width: 768px) {
+.all{
+    top: -35rem;
+    left: 3rem;
+    width: 81%;
+   
+    box-shadow: -1px 0px  3rem black
+}
+.close{
+    background: #ffff;
+    color: black;
+    font-size: 25px;
+ position: relative;
+
+ left: 85.4%;
+    width: 40px;
+}
+   }
+   .auth-tab.active {
+    border-bottom: 2px solid #078edd;
+    color: #078edd;
+  }

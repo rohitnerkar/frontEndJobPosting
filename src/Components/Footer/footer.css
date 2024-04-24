@@ -1,0 +1,9 @@
+.social-icons {
+    display: flex;
+    gap: 10px; /* Adjust the gap between icons as needed */
+  }
+  
+  .social-icons i {
+    font-size: 24px; /* Adjust the icon size as needed */
+    color: #333; /* Set the icon color */
+  }
